@@ -11,10 +11,10 @@ public class RepeatOutPut {
         String input = sc.nextLine();
 
         System.out.println("--- 输出结果 ---");
-        System.out.println(input);
-        System.out.println(input);
-        System.out.println(input);
 
+        for(int i=0;i<3;i++) {
+            System.out.println(input);
+        }
         sc.close();
     }
 }
